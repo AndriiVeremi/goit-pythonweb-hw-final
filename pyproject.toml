@@ -1,5 +1,5 @@
 [project]
-name = "goit-pythonweb-hw-12"
+name = "goit-pythonweb-hw-final"
 version = "0.1.0"
 description = "REST API додаток для керування контактами користувачів"
 authors = [
@@ -9,7 +9,7 @@ readme = "README.md"
 requires-python = ">=3.12,<4.0"
 
 [tool.poetry]
-name = "goit-pythonweb-hw-12"
+name = "goit-pythonweb-hw-final"
 version = "1.0.0"
 description = "REST API додаток для керування контактами користувачів"
 authors = ["Andrii Veremii"]
