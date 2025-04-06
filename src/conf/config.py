@@ -13,7 +13,6 @@ class Settings(BaseSettings):
     POSTGRES_PORT: str = "5432"
     DB_URL: str = "postgresql+asyncpg://postgres:123456@localhost:5432/hw7_db"
 
-
     # Redis settings
     REDIS_URL: str = "redis://localhost"
     REDIS_HOST: str = "localhost"
@@ -26,15 +25,16 @@ class Settings(BaseSettings):
     SECRET_KEY: str = "your-secret-key-here"
     ALGORITHM: str = "HS256"
 
+
     # Mail settings
-    MAIL_USERNAME: str = "your-email@example.com"
-    MAIL_PASSWORD: str = "your-email-password"
-    MAIL_FROM: EmailStr = "your-email@example.com"
-    MAIL_PORT: int = 587
-    MAIL_SERVER: str = "smtp.gmail.com"
-    MAIL_FROM_NAME: str = "Your App Name"
-    MAIL_STARTTLS: bool = True
-    MAIL_SSL_TLS: bool = False
+    MAIL_USERNAME: str = "example@ukr.net"
+    MAIL_PASSWORD: str = "secretPassword"
+    MAIL_FROM: EmailStr = "example@ukr.net"
+    MAIL_PORT: int = 465
+    MAIL_SERVER: str = "smtp.ukr.net"
+    MAIL_FROM_NAME: str = "Contact- app"
+    MAIL_STARTTLS: bool = False
+    MAIL_SSL_TLS: bool = True
     USE_CREDENTIALS: bool = True
     VALIDATE_CERTS: bool = True
     TEMPLATE_FOLDER: Path = Path(__file__).parent / "templates"
@@ -44,8 +44,6 @@ class Settings(BaseSettings):
     # CLD_API_KEY: int = 123456789
     CLD_API_KEY: int = 191275896727463
     CLD_API_SECRET: str = "secret"
-
-
 
     class Config:
         env_file = ".env"
