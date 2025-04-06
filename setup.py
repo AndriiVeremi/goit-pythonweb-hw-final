@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="goit-pythonweb-hw-12",
+    name="goit-pythonweb-hw-final",
     version="0.1.0",
     packages=find_packages(),
     install_requires=[

@@ -10,7 +10,7 @@ import os
 
 sys.path.append(os.path.abspath(".."))
 
-project = 'goit-pythonweb-hw-12'
+project = 'goit-pythonweb-hw-final'
 copyright = '2025, Andrii Veremii'
 author = 'Andrii Veremii'
 release = '1.0'
