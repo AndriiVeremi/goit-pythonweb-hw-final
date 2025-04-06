@@ -22,7 +22,7 @@ from src.schemas.user import (
     PasswordResetConfirm,
     PasswordResetResponse,
 )
-from src.services.email import send_email, send_password_reset_email
+from src.services.email import send_email
 from src.services.user import UserService
 from src.services.password_reset import PasswordResetService
 
